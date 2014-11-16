@@ -1,0 +1,375 @@
+/* Empty. Add your own CSS if you like */
+
+
+.button.button-calm {
+    background-color: #5addc0;
+}
+
+
+.menu .scroll-content {
+    background: #262626;
+}
+
+
+.menu .item {
+    border-color: #1C1C1C;
+}
+
+.menu .item-complex .item-content{ 
+    background: #262626;
+    color: #EEE;
+}
+
+
+
+.ViewBrowse .item-thumbnail-left,
+.ViewBrowse .item-thumbnail-left .item-content {
+    height: 140px;
+    
+}
+.ViewBrowse .item-thumbnail-left > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-content .item-image {
+    max-width: 90px;
+    max-height: 120px;
+}
+
+.ViewBrowse .item{
+    padding: 10px 10px 10px 110px;
+}
+
+.ViewBrowse .item-details {
+}
+
+.ViewBrowse .item-desc {
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.ViewBrowse .item h2 {
+    font-size: 18px;
+    margin-top: 5px;
+    white-space: normal;
+}
+
+.ViewBrowse .item p {
+    font-size: 14px;
+    white-space: normal;
+}
+
+.ViewBrowse .item-divider {
+    padding: 14px 10px 6px;
+}
+
+.ViewBrowse .channel-logo {
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2px 4px;
+    height: 30px;
+    border-top-right-radius: 3px;
+}
+
+
+
+
+
+
+
+.ViewChannel {
+
+}
+
+
+
+
+
+
+
+
+
+.button.button-stable {
+    border: 1px solid #CCC;
+}
+
+
+
+/*
+ * Full page channel buttons
+ */
+.channel-container {
+    text-align: center;
+    margin: 10px;
+}
+.channel-container button {
+    height: 50px;
+    margin: 10px ;
+}
+.channel-container button img {
+    height: 30px;
+    margin: 10px 0 0;
+}
+
+.channel-container  .button-nbc {
+    display: none;
+}
+
+/*
+ * Horizontal Channel Buttons
+ */
+.channel-container-horizontal {
+    width: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 5px
+}
+
+.channel-container-horizontal button {
+    float: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.button-directions {
+    clear: both;
+    height: 180px;
+    width: 300px;
+    background: #CCC;
+    margin: 10px;
+    position: relative;
+}
+
+
+.button-directions .button {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+
+}
+
+.button-directions .ion-ios7-arrow-up {
+    top: 0;
+    left: 0;
+}
+
+.button-directions .ion-ios7-arrow-right {
+    top: 60px;
+    right: 0;
+}
+.button-ok {
+    border-radius: 100%;
+    left: 60px;
+    top: 60px;
+    z-index: 9999;
+}
+
+
+.button-directions .ion-ios7-arrow-down {
+    bottom: 0;
+    left: 60px;
+    z-index: 11;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+
+.button-directions .ion-ios7-arrow-down:after {
+    bottom: 40px;
+    top: inherit;
+    left: -1px;
+    height: 60px;
+    width: 60px;
+    border-bottom: 1px solid #AAA;
+    z-index: 10;
+    background: #CCC;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.button-directions .ion-ios7-arrow-left {
+    left: 0;
+    top: 60px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.button-directions .ion-ios7-arrow-left:after {
+    left: 40px;
+    top: -2px;
+    height: 60px;
+    width: 60px;
+    border-left: 1px solid #AAA;
+    z-index: 10;
+    background: #CCC;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.button-group-vertical {
+    text-align: center;
+    border: 1px solid #CCC;
+    margin: 0 auto;
+    background: #f8f8f8;
+    width: 82px;
+    border-radius: 60px;
+}
+.button-group-vertical button {
+    border: none;
+    min-width: 80px;
+    min-height: 80px;
+}
+
+.bgv-button-top {
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
+
+.bgv-button-bottom {
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.bgv-button-bottom {
+
+}
+
+
+.bgv-label {
+    padding: 10px
+}
+
+
+
+
+
+
+.top-buttons{
+    padding: 20px 20px 150px;
+}
+
+.top-buttons button{
+    min-width: 70px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.top-buttons .button-power {
+    float: right;
+    color: #444
+}
+.top-buttons .button-input {
+    float: left;
+}
+
+
+
+
+.button-round {
+    width: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 100%;
+    border: 1px solid #CCC;
+    margin: 0 auto;
+}
+
+
+.button-watch:before {
+    transform: rotate(-45deg);
+    margin-top: -3px;
+    margin-right: 15px
+}
+
+
+
+
+.ViewRemote .channel-container-horizontal {
+    margin: 50px 5px;
+}
+
+
+.ViewRemote .channel-container-horizontal button{
+    border-radius: 30px;
+    border: 1px solid #CCC
+}
+
+.keypad-container {
+    text-align: center;
+
+}
+
+.keypad-container button {
+    font-size: 24px;
+}
+
+.keypad-container .row {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * PROGRAM DETAILS
+ */
+.program-details {
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    min-height: 550px;
+    background-color: #444;
+}
+
+.program-details-cover {
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 74%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(74%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 74%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 74%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 74%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 74%,rgba(0,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    width: 100%;
+    height: 100%;
+    min-height: 550px;
+
+    padding: 280px 10px 0px;
+    color: #FFF;
+    min-height: 570px;
+}
+
+.program-details h1 {
+    color: #FFF;
+    font-size: 32px;
+}
+
+.program-details .channel-logo {
+    background: #ffffff;
+    padding: 2px 6px;
+}
+
+.program-details .button-watch {
+    margin-top: 10px
+}

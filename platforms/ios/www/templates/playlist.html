@@ -1,0 +1,26 @@
+<ion-view hide-nav-bar="true" title="" class="">
+  <ion-content class="">
+
+    <div class="program-details" style="background-image: url('/img/guide/{{ playlist.image }}');">
+      <div class="program-details-cover">
+
+        <h1>{{ playlist.programName }}</h1>
+        <p>{{ playlist.description }}</p>
+        <p><strong>{{ playlist.episodeTitle }}</strong> <span ng-if="playlist.episodeInfo">{{ playlist.episodeInfo }}</span></p>
+        <p class="logo-container">
+          <img class="channel-logo" ng-src="/img/guide/{{ playlist.channel}}.png" />
+        </p>
+
+
+
+        <div class="button-watch-container">
+          <button class="button button-full button-watch button-calm icon ion-social-rss">
+            Watch on TV
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </ion-content>
+</ion-view>
